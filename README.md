@@ -1,18 +1,18 @@
-# 🎯 AI Complaint Management System
+#  AI Complaint Management System
 
 A full-stack complaint management system with React, Node.js, MongoDB.
 
-## ✅ Features
-- 🔐 Login / Register with JWT auth
-- 📋 Submit & track complaints
-- 👨‍💼 Admin panel (manage all complaints, update status, delete)
-- 🤖 AI Chatbot assistant
-- 🌙 Dark / Light theme toggle
-- 📊 Charts & dashboard stats
+##  Features
+- Login / Register with JWT auth
+- Submit & track complaints
+- Admin panel (manage all complaints, update status, delete)
+- AI Chatbot assistant
+- Dark / Light theme toggle
+- Charts & dashboard stats
 
 ---
 
-## 🚀 Quick Start (3 steps)
+##  Quick Start (3 steps)
 
 ### Step 1 — Make sure MongoDB is running
 - Install MongoDB from https://www.mongodb.com/try/download/community
@@ -37,45 +37,45 @@ npm start
 ```
 Frontend runs on: http://localhost:3000
 
-### Step 3 — Open browser
+### Step 3 : Open browser
 Go to: http://localhost:3000
 
 ---
 
-## 👤 Create Admin Account
+## Create Admin Account
 1. Click "Register"
 2. Fill in your details
 3. Select **Role: Admin** from the dropdown
 4. Log in → you'll see "Admin Panel" in the sidebar
 
-## 👤 Create User Account
+## Create User Account
 1. Click "Register"
 2. Select **Role: User**
 3. Log in → submit and track complaints
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 ```
 complaint-system/
-├── backend/
-│   ├── models/         # MongoDB schemas
-│   ├── routes/         # API endpoints
-│   ├── middleware/      # Auth middleware
-│   ├── .env            # Config (MongoDB URI, JWT secret)
-│   └── server.js       # Entry point
-└── frontend/
-    ├── src/
-    │   ├── components/  # Sidebar, Navbar, Chatbot, Layout
-    │   ├── context/     # Auth + Theme context
-    │   ├── pages/       # Dashboard, Login, Register, etc.
-    │   └── services/    # API calls
-    └── public/
+|--- backend/
+│   |--- models/         # MongoDB schemas
+│   |---routes/         # API endpoints
+│   |--- middleware/      # Auth middleware
+│   |---.env            # Config (MongoDB URI, JWT secret)
+│   |--- server.js       # Entry point
+|---- frontend/
+    |--- src/
+    │   |--- components/  # Sidebar, Navbar, Chatbot, Layout
+    │   |--- context/     # Auth + Theme context
+    │   |--- pages/       # Dashboard, Login, Register, etc.
+    │   |--- services/    # API calls
+    |---- public/
 ```
 
 ---
 
-## ⚙️ Config (backend/.env)
+## Config (backend/.env)
 ```
 PORT=5000
 MONGO_URI=mongodb://localhost:27017/complaint-system
